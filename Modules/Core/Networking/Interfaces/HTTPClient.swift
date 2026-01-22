@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol HTTPClient {
-    func send<T: Decodable>(_ request: HTTPRequest, responseType: T.Type) async throws -> T
+    func send<T: Decodable>(_ request: HTTPRequest) async throws -> T
 }

@@ -8,8 +8,8 @@
 import Foundation
 
 public extension HTTPRequest {
-    func build() throws -> URLRequest {
-        var components = URLComponents(string: baseURL + path)
+    func build(baseURL: String? = nil) throws -> URLRequest {
+        var components = URLComponents(string: baseURL ?? self.baseURL + path)
 
         if !query.isEmpty {
             components?.queryItems = query.map {
@@ -18,7 +18,7 @@ public extension HTTPRequest {
         }
 
         guard let url = components?.url else {
-            throw NetworkError.invalidURL
+            throw NetworkError.invalidRequest
         }
 
         var urlRequest = URLRequest(url: url)

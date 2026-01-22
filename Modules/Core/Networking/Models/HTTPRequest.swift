@@ -16,7 +16,7 @@ public struct HTTPRequest {
     public let body: Data?
 
     public init(
-        baseURL: String,
+        baseURL: String = "",
         path: String,
         method: HTTPMethod = .get,
         headers: [String: String] = [:],

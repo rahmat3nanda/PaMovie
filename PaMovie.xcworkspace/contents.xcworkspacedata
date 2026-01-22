@@ -4,4 +4,7 @@
    <FileRef
       location = "container:App.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Modules/Core/Core.xcodeproj">
+   </FileRef>
 </Workspace>

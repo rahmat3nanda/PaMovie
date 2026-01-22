@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF1038C42F22179B002D8A36 /* PaMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF1038D62F2217A0002D8A36 /* PaMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF1038E02F2217A0002D8A36 /* PaMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1038C42F22179B002D8A36 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1038D62F2217A0002D8A36 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1038E02F2217A0002D8A36 /* AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		AF1038C52F22179B002D8A36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF1038C42F22179B002D8A36 /* PaMovie.app */,
-				AF1038D62F2217A0002D8A36 /* PaMovieTests.xctest */,
-				AF1038E02F2217A0002D8A36 /* PaMovieUITests.xctest */,
+				AF1038C42F22179B002D8A36 /* App.app */,
+				AF1038D62F2217A0002D8A36 /* AppTests.xctest */,
+				AF1038E02F2217A0002D8A36 /* AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF1038C32F22179B002D8A36 /* PaMovie */ = {
+		AF1038C32F22179B002D8A36 /* App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF1038EA2F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "PaMovie" */;
+			buildConfigurationList = AF1038EA2F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
 				AF1038C02F22179B002D8A36 /* Sources */,
 				AF1038C12F22179B002D8A36 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				AF1038C62F22179B002D8A36 /* PaMovie */,
 			);
-			name = PaMovie;
+			name = App;
 			packageProductDependencies = (
 			);
 			productName = PaMovie;
-			productReference = AF1038C42F22179B002D8A36 /* PaMovie.app */;
+			productReference = AF1038C42F22179B002D8A36 /* App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AF1038D52F2217A0002D8A36 /* PaMovieTests */ = {
+		AF1038D52F2217A0002D8A36 /* AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF1038ED2F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "PaMovieTests" */;
+			buildConfigurationList = AF1038ED2F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "AppTests" */;
 			buildPhases = (
 				AF1038D22F2217A0002D8A36 /* Sources */,
 				AF1038D32F2217A0002D8A36 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				AF1038D92F2217A0002D8A36 /* PaMovieTests */,
 			);
-			name = PaMovieTests;
+			name = AppTests;
 			packageProductDependencies = (
 			);
 			productName = PaMovieTests;
-			productReference = AF1038D62F2217A0002D8A36 /* PaMovieTests.xctest */;
+			productReference = AF1038D62F2217A0002D8A36 /* AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AF1038DF2F2217A0002D8A36 /* PaMovieUITests */ = {
+		AF1038DF2F2217A0002D8A36 /* AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF1038F02F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "PaMovieUITests" */;
+			buildConfigurationList = AF1038F02F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "AppUITests" */;
 			buildPhases = (
 				AF1038DC2F2217A0002D8A36 /* Sources */,
 				AF1038DD2F2217A0002D8A36 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				AF1038E32F2217A0002D8A36 /* PaMovieUITests */,
 			);
-			name = PaMovieUITests;
+			name = AppUITests;
 			packageProductDependencies = (
 			);
 			productName = PaMovieUITests;
-			productReference = AF1038E02F2217A0002D8A36 /* PaMovieUITests.xctest */;
+			productReference = AF1038E02F2217A0002D8A36 /* AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF1038BF2F22179B002D8A36 /* Build configuration list for PBXProject "PaMovie" */;
+			buildConfigurationList = AF1038BF2F22179B002D8A36 /* Build configuration list for PBXProject "App" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF1038C32F22179B002D8A36 /* PaMovie */,
-				AF1038D52F2217A0002D8A36 /* PaMovieTests */,
-				AF1038DF2F2217A0002D8A36 /* PaMovieUITests */,
+				AF1038C32F22179B002D8A36 /* App */,
+				AF1038D52F2217A0002D8A36 /* AppTests */,
+				AF1038DF2F2217A0002D8A36 /* AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		AF1038D82F2217A0002D8A36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF1038C32F22179B002D8A36 /* PaMovie */;
+			target = AF1038C32F22179B002D8A36 /* App */;
 			targetProxy = AF1038D72F2217A0002D8A36 /* PBXContainerItemProxy */;
 		};
 		AF1038E22F2217A0002D8A36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF1038C32F22179B002D8A36 /* PaMovie */;
+			target = AF1038C32F22179B002D8A36 /* App */;
 			targetProxy = AF1038E12F2217A0002D8A36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -472,7 +472,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaMovie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaMovie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/App";
 			};
 			name = Debug;
 		};
@@ -494,7 +494,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaMovie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaMovie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/App";
 			};
 			name = Release;
 		};
@@ -541,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF1038BF2F22179B002D8A36 /* Build configuration list for PBXProject "PaMovie" */ = {
+		AF1038BF2F22179B002D8A36 /* Build configuration list for PBXProject "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF1038E82F2217A0002D8A36 /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF1038EA2F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "PaMovie" */ = {
+		AF1038EA2F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF1038EB2F2217A0002D8A36 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF1038ED2F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "PaMovieTests" */ = {
+		AF1038ED2F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF1038EE2F2217A0002D8A36 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF1038F02F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "PaMovieUITests" */ = {
+		AF1038F02F2217A0002D8A36 /* Build configuration list for PBXNativeTarget "AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF1038F12F2217A0002D8A36 /* Debug */,

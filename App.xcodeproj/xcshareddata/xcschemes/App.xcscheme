@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF1038C32F22179B002D8A36"
-               BuildableName = "PaMovie.app"
-               BlueprintName = "PaMovie"
-               ReferencedContainer = "container:PaMovie.xcodeproj">
+               BuildableName = "App.app"
+               BlueprintName = "App"
+               ReferencedContainer = "container:App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF1038D52F2217A0002D8A36"
-               BuildableName = "PaMovieTests.xctest"
-               BlueprintName = "PaMovieTests"
-               ReferencedContainer = "container:PaMovie.xcodeproj">
+               BuildableName = "AppTests.xctest"
+               BlueprintName = "AppTests"
+               ReferencedContainer = "container:App.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF1038DF2F2217A0002D8A36"
-               BuildableName = "PaMovieUITests.xctest"
-               BlueprintName = "PaMovieUITests"
-               ReferencedContainer = "container:PaMovie.xcodeproj">
+               BuildableName = "AppUITests.xctest"
+               BlueprintName = "AppUITests"
+               ReferencedContainer = "container:App.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF1038C32F22179B002D8A36"
-            BuildableName = "PaMovie.app"
-            BlueprintName = "PaMovie"
-            ReferencedContainer = "container:PaMovie.xcodeproj">
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF1038C32F22179B002D8A36"
-            BuildableName = "PaMovie.app"
-            BlueprintName = "PaMovie"
-            ReferencedContainer = "container:PaMovie.xcodeproj">
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

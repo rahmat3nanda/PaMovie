@@ -5,6 +5,12 @@
       location = "container:App.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Modules/Features/Features.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Modules/Core/Core.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules/Shared/Shared.xcodeproj">
    </FileRef>
 </Workspace>

@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol SessionHTTP {
-    func data(for request: URLRequest) async throws -> (Data, URLResponse)
+    func request(for request: URLRequest) async throws -> (Data, URLResponse)
 }

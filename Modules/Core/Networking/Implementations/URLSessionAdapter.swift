@@ -14,7 +14,7 @@ public final class URLSessionAdapter: SessionHTTP {
         self.session = session
     }
 
-    public func data(
+    public func request(
         for request: URLRequest
     ) async throws -> (Data, URLResponse) {
         try await session.data(for: request)

@@ -1,1 +1,13 @@
 .idea
+
+# Xcode
+#
+# gitignore contributors: add more lines as needed
+
+## User settings
+xcuserdata/
+**/xcuserdata/
+
+## xcode build files
+DerivedData/
+build/

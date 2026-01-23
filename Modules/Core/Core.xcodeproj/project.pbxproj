@@ -187,6 +187,7 @@
 			buildConfigurationList = AF1039E12F232B1F002D8A36 /* Build configuration list for PBXNativeTarget "Database" */;
 			buildPhases = (
 				AF1039CB2F232B1F002D8A36 /* Headers */,
+				AF1039EA2F232BB6002D8A36 /* SwiftLint */,
 				AF1039CC2F232B1F002D8A36 /* Sources */,
 				AF1039CD2F232B1F002D8A36 /* Frameworks */,
 				AF1039CE2F232B1F002D8A36 /* Resources */,
@@ -209,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF1039E42F232B1F002D8A36 /* Build configuration list for PBXNativeTarget "DatabaseTests" */;
 			buildPhases = (
+				AF1039EB2F232BCA002D8A36 /* SwiftLint */,
 				AF1039D62F232B1F002D8A36 /* Sources */,
 				AF1039D72F232B1F002D8A36 /* Frameworks */,
 				AF1039D82F232B1F002D8A36 /* Resources */,
@@ -247,6 +249,7 @@
 					};
 					AF1039CF2F232B1F002D8A36 = {
 						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
 					};
 					AF1039D92F232B1F002D8A36 = {
 						CreatedOnToolsVersion = 26.2;
@@ -327,6 +330,44 @@
 			shellScript = "export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\"\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed\"\nfi\n";
 		};
 		AF1039922F223CD2002D8A36 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\"\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed\"\nfi\n";
+		};
+		AF1039EA2F232BB6002D8A36 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\"\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed\"\nfi\n";
+		};
+		AF1039EB2F232BCA002D8A36 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -774,6 +815,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MNGAL283XP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -869,6 +911,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MNGAL283XP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

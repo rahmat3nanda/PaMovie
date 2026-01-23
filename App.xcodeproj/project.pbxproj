@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AF103A892F233FB4002D8A36 /* Database.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A852F233FB4002D8A36 /* Database.framework */; };
+		AF103A8A2F233FB4002D8A36 /* Database.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A852F233FB4002D8A36 /* Database.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF103A8B2F233FB4002D8A36 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A862F233FB4002D8A36 /* Networking.framework */; };
+		AF103A8C2F233FB4002D8A36 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A862F233FB4002D8A36 /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF103A8D2F233FB4002D8A36 /* Movies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A872F233FB4002D8A36 /* Movies.framework */; };
+		AF103A8E2F233FB4002D8A36 /* Movies.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A872F233FB4002D8A36 /* Movies.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF103A8F2F233FB4002D8A36 /* UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A882F233FB4002D8A36 /* UI.framework */; };
+		AF103A902F233FB4002D8A36 /* UI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A882F233FB4002D8A36 /* UI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AF1038D72F2217A0002D8A36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,10 +34,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AF103A912F233FB4002D8A36 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AF103A8C2F233FB4002D8A36 /* Networking.framework in Embed Frameworks */,
+				AF103A8A2F233FB4002D8A36 /* Database.framework in Embed Frameworks */,
+				AF103A902F233FB4002D8A36 /* UI.framework in Embed Frameworks */,
+				AF103A8E2F233FB4002D8A36 /* Movies.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		AF1038C42F22179B002D8A36 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF1038D62F2217A0002D8A36 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF1038E02F2217A0002D8A36 /* AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF103A852F233FB4002D8A36 /* Database.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Database.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF103A862F233FB4002D8A36 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF103A872F233FB4002D8A36 /* Movies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Movies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF103A882F233FB4002D8A36 /* UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +84,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF103A8B2F233FB4002D8A36 /* Networking.framework in Frameworks */,
+				AF103A892F233FB4002D8A36 /* Database.framework in Frameworks */,
+				AF103A8F2F233FB4002D8A36 /* UI.framework in Frameworks */,
+				AF103A8D2F233FB4002D8A36 /* Movies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +114,7 @@
 				AF1038C62F22179B002D8A36 /* PaMovie */,
 				AF1038D92F2217A0002D8A36 /* PaMovieTests */,
 				AF1038E32F2217A0002D8A36 /* PaMovieUITests */,
+				AF103A842F233FB4002D8A36 /* Frameworks */,
 				AF1038C52F22179B002D8A36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +129,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AF103A842F233FB4002D8A36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF103A852F233FB4002D8A36 /* Database.framework */,
+				AF103A862F233FB4002D8A36 /* Networking.framework */,
+				AF103A872F233FB4002D8A36 /* Movies.framework */,
+				AF103A882F233FB4002D8A36 /* UI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,6 +150,7 @@
 				AF1038C02F22179B002D8A36 /* Sources */,
 				AF1038C12F22179B002D8A36 /* Frameworks */,
 				AF1038C22F22179B002D8A36 /* Resources */,
+				AF103A912F233FB4002D8A36 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -404,8 +453,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,8 +486,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

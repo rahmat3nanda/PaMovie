@@ -7,10 +7,10 @@
 
 import Database
 
-final class MovieLocalDataSource {
+public final class MovieLocalDataSource {
     private let storage: MovieStorage
 
-    init(storage: MovieStorage) {
+    public init(storage: MovieStorage) {
         self.storage = storage
     }
 

@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 @MainActor
-final class PopularMoviesViewModel: ObservableObject {
+public final class PopularMoviesViewModel: ObservableObject {
 
     // MARK: - State
 
@@ -23,7 +23,7 @@ final class PopularMoviesViewModel: ObservableObject {
 
     // MARK: - Init
 
-    init(getPopularMovies: GetPopularMoviesUseCase) {
+    public init(getPopularMovies: GetPopularMoviesUseCase) {
         self.getPopularMovies = getPopularMovies
     }
 

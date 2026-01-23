@@ -7,17 +7,17 @@
 
 import Foundation
 
-final class DefaultMovieRepository: MovieRepository {
+public final class DefaultMovieRepository: MovieRepository {
 
     private let api: MovieAPI
     private let local: MovieLocalDataSource
 
-    init(api: MovieAPI, local: MovieLocalDataSource) {
+    public init(api: MovieAPI, local: MovieLocalDataSource) {
         self.api = api
         self.local = local
     }
 
-    func getPopularMovies() async throws -> [Movie] {
+    public func getPopularMovies() async throws -> [Movie] {
         let cached = try await local.getMovies()
         if !cached.isEmpty {
             return cached.map(MovieMapper.fromRecord)

@@ -9,15 +9,15 @@ import Foundation
 import SwiftUI
 import UI
 
-struct PopularMoviesView: View {
+public struct PopularMoviesView: View {
 
     @StateObject private var viewModel: PopularMoviesViewModel
 
-    init(viewModel: PopularMoviesViewModel) {
+    public init(viewModel: PopularMoviesViewModel) {
         _viewModel = StateObject(wrappedValue: viewModel)
     }
 
-    var body: some View {
+    public var body: some View {
         NavigationView {
             content
                 .navigationBarTitle("Popular Movies", displayMode: .large)

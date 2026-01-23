@@ -7,14 +7,14 @@
 
 import Networking
 
-final class DefaultMovieAPI: MovieAPI {
+public final class DefaultMovieAPI: MovieAPI {
     private let client: HTTPClient
 
-    init(client: HTTPClient) {
+    public init(client: HTTPClient) {
         self.client = client
     }
 
-    func fetchPopular() async throws -> PopularMoviesResponse {
+    public func fetchPopular() async throws -> PopularMoviesResponse {
         try await client.send(
             HTTPRequest(path: "/movie/popular", method: .get)
         )

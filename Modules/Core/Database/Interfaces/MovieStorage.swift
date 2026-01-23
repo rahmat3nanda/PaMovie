@@ -8,8 +8,9 @@
 import Foundation
 
 public protocol MovieStorage {
-    func fetchAll() async throws -> [MovieRecord]
-    func fetch(id: Int) async throws -> MovieRecord?
-    func save(_ movie: MovieRecord) async throws
+    func data() async throws -> [MovieRecord]
+    func detail(id: Int) async throws -> MovieRecord?
+    func addAll(_ movies: [MovieRecord]) async throws
+    func add(_ movie: MovieRecord) async throws
     func delete(id: Int) async throws
 }

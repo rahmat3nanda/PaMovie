@@ -28,7 +28,7 @@ extension CoreDataMovieEntity {
         )
     }
 
-    func update(from record: MovieRecord) {
+    func apply(_ record: MovieRecord) {
         id = Int64(record.id)
         title = record.title
         overview = record.overview

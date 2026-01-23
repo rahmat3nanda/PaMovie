@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct MovieRecord: Equatable, Identifiable {
+public struct MovieRecord: Equatable, Sendable {
     public let id: Int
     public let title: String
     public let overview: String

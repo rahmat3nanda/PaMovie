@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF1039FE2F232CFA002D8A36 /* MoviesList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1039F22F232CF9002D8A36 /* MoviesList.framework */; };
+		AF103A1C2F232FB5002D8A36 /* Movies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A112F232FB5002D8A36 /* Movies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AF1039FF2F232CFA002D8A36 /* PBXContainerItemProxy */ = {
+		AF103A1D2F232FB5002D8A36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AF1039642F222559002D8A36 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AF1039F12F232CF9002D8A36;
-			remoteInfo = MoviesList;
+			remoteGlobalIDString = AF103A102F232FB5002D8A36;
+			remoteInfo = Movies;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF1039F22F232CF9002D8A36 /* MoviesList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoviesList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF1039FD2F232CFA002D8A36 /* MoviesListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF103A112F232FB5002D8A36 /* Movies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Movies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF103A1B2F232FB5002D8A36 /* MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AF1039F42F232CF9002D8A36 /* MoviesList */ = {
+		AF103A122F232FB5002D8A36 /* Movies */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoviesList;
+			path = Movies;
 			sourceTree = "<group>";
 		};
-		AF103A012F232CFA002D8A36 /* MoviesListTests */ = {
+		AF103A1F2F232FB5002D8A36 /* MoviesTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoviesListTests;
+			path = MoviesTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF1039EF2F232CF9002D8A36 /* Frameworks */ = {
+		AF103A0E2F232FB5002D8A36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF1039FA2F232CFA002D8A36 /* Frameworks */ = {
+		AF103A182F232FB5002D8A36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF1039FE2F232CFA002D8A36 /* MoviesList.framework in Frameworks */,
+				AF103A1C2F232FB5002D8A36 /* Movies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +60,8 @@
 		AF1039632F222559002D8A36 = {
 			isa = PBXGroup;
 			children = (
-				AF1039F42F232CF9002D8A36 /* MoviesList */,
-				AF103A012F232CFA002D8A36 /* MoviesListTests */,
+				AF103A122F232FB5002D8A36 /* Movies */,
+				AF103A1F2F232FB5002D8A36 /* MoviesTests */,
 				AF1039F32F232CF9002D8A36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,8 +69,8 @@
 		AF1039F32F232CF9002D8A36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF1039F22F232CF9002D8A36 /* MoviesList.framework */,
-				AF1039FD2F232CFA002D8A36 /* MoviesListTests.xctest */,
+				AF103A112F232FB5002D8A36 /* Movies.framework */,
+				AF103A1B2F232FB5002D8A36 /* MoviesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,7 +78,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AF1039ED2F232CF9002D8A36 /* Headers */ = {
+		AF103A0C2F232FB5002D8A36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,52 +88,52 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AF1039F12F232CF9002D8A36 /* MoviesList */ = {
+		AF103A102F232FB5002D8A36 /* Movies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF103A042F232CFA002D8A36 /* Build configuration list for PBXNativeTarget "MoviesList" */;
+			buildConfigurationList = AF103A222F232FB5002D8A36 /* Build configuration list for PBXNativeTarget "Movies" */;
 			buildPhases = (
-				AF1039ED2F232CF9002D8A36 /* Headers */,
-				AF103A0A2F232D19002D8A36 /* SwiftLint */,
-				AF1039EE2F232CF9002D8A36 /* Sources */,
-				AF1039EF2F232CF9002D8A36 /* Frameworks */,
-				AF1039F02F232CF9002D8A36 /* Resources */,
+				AF103A0C2F232FB5002D8A36 /* Headers */,
+				AF103A282F232FDD002D8A36 /* SwiftLint */,
+				AF103A0D2F232FB5002D8A36 /* Sources */,
+				AF103A0E2F232FB5002D8A36 /* Frameworks */,
+				AF103A0F2F232FB5002D8A36 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				AF1039F42F232CF9002D8A36 /* MoviesList */,
+				AF103A122F232FB5002D8A36 /* Movies */,
 			);
-			name = MoviesList;
+			name = Movies;
 			packageProductDependencies = (
 			);
-			productName = MoviesList;
-			productReference = AF1039F22F232CF9002D8A36 /* MoviesList.framework */;
+			productName = Movies;
+			productReference = AF103A112F232FB5002D8A36 /* Movies.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AF1039FC2F232CFA002D8A36 /* MoviesListTests */ = {
+		AF103A1A2F232FB5002D8A36 /* MoviesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF103A072F232CFA002D8A36 /* Build configuration list for PBXNativeTarget "MoviesListTests" */;
+			buildConfigurationList = AF103A252F232FB5002D8A36 /* Build configuration list for PBXNativeTarget "MoviesTests" */;
 			buildPhases = (
-				AF103A0B2F232D38002D8A36 /* SwiftLint */,
-				AF1039F92F232CFA002D8A36 /* Sources */,
-				AF1039FA2F232CFA002D8A36 /* Frameworks */,
-				AF1039FB2F232CFA002D8A36 /* Resources */,
+				AF103A292F232FEF002D8A36 /* SwiftLint */,
+				AF103A172F232FB5002D8A36 /* Sources */,
+				AF103A182F232FB5002D8A36 /* Frameworks */,
+				AF103A192F232FB5002D8A36 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AF103A002F232CFA002D8A36 /* PBXTargetDependency */,
+				AF103A1E2F232FB5002D8A36 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				AF103A012F232CFA002D8A36 /* MoviesListTests */,
+				AF103A1F2F232FB5002D8A36 /* MoviesTests */,
 			);
-			name = MoviesListTests;
+			name = MoviesTests;
 			packageProductDependencies = (
 			);
-			productName = MoviesListTests;
-			productReference = AF1039FD2F232CFA002D8A36 /* MoviesListTests.xctest */;
+			productName = MoviesTests;
+			productReference = AF103A1B2F232FB5002D8A36 /* MoviesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -146,10 +146,10 @@
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					AF1039F12F232CF9002D8A36 = {
+					AF103A102F232FB5002D8A36 = {
 						CreatedOnToolsVersion = 26.2;
 					};
-					AF1039FC2F232CFA002D8A36 = {
+					AF103A1A2F232FB5002D8A36 = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
@@ -168,21 +168,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF1039F12F232CF9002D8A36 /* MoviesList */,
-				AF1039FC2F232CFA002D8A36 /* MoviesListTests */,
+				AF103A102F232FB5002D8A36 /* Movies */,
+				AF103A1A2F232FB5002D8A36 /* MoviesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF1039F02F232CF9002D8A36 /* Resources */ = {
+		AF103A0F2F232FB5002D8A36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF1039FB2F232CFA002D8A36 /* Resources */ = {
+		AF103A192F232FB5002D8A36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -192,7 +192,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AF103A0A2F232D19002D8A36 /* SwiftLint */ = {
+		AF103A282F232FDD002D8A36 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -211,7 +211,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\"\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed\"\nfi\n";
 		};
-		AF103A0B2F232D38002D8A36 /* SwiftLint */ = {
+		AF103A292F232FEF002D8A36 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -233,14 +233,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF1039EE2F232CF9002D8A36 /* Sources */ = {
+		AF103A0D2F232FB5002D8A36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF1039F92F232CFA002D8A36 /* Sources */ = {
+		AF103A172F232FB5002D8A36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,10 +250,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AF103A002F232CFA002D8A36 /* PBXTargetDependency */ = {
+		AF103A1E2F232FB5002D8A36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AF1039F12F232CF9002D8A36 /* MoviesList */;
-			targetProxy = AF1039FF2F232CFA002D8A36 /* PBXContainerItemProxy */;
+			target = AF103A102F232FB5002D8A36 /* Movies */;
+			targetProxy = AF103A1D2F232FB5002D8A36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -272,7 +272,7 @@
 			};
 			name = Release;
 		};
-		AF103A052F232CFA002D8A36 /* Debug */ = {
+		AF103A232F232FB5002D8A36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -335,7 +335,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,7 +348,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = id.nesd.MoviesList;
+				PRODUCT_BUNDLE_IDENTIFIER = id.nesd.Movies;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -367,7 +367,7 @@
 			};
 			name = Debug;
 		};
-		AF103A062F232CFA002D8A36 /* Release */ = {
+		AF103A242F232FB5002D8A36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,7 +424,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,7 +436,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = id.nesd.MoviesList;
+				PRODUCT_BUNDLE_IDENTIFIER = id.nesd.Movies;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -455,7 +455,7 @@
 			};
 			name = Release;
 		};
-		AF103A082F232CFA002D8A36 /* Debug */ = {
+		AF103A262F232FB5002D8A36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -511,13 +511,13 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = id.nesd.MoviesListTests;
+				PRODUCT_BUNDLE_IDENTIFIER = id.nesd.MoviesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -531,7 +531,7 @@
 			};
 			name = Debug;
 		};
-		AF103A092F232CFA002D8A36 /* Release */ = {
+		AF103A272F232FB5002D8A36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -581,12 +581,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = id.nesd.MoviesListTests;
+				PRODUCT_BUNDLE_IDENTIFIER = id.nesd.MoviesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -612,20 +612,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF103A042F232CFA002D8A36 /* Build configuration list for PBXNativeTarget "MoviesList" */ = {
+		AF103A222F232FB5002D8A36 /* Build configuration list for PBXNativeTarget "Movies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF103A052F232CFA002D8A36 /* Debug */,
-				AF103A062F232CFA002D8A36 /* Release */,
+				AF103A232F232FB5002D8A36 /* Debug */,
+				AF103A242F232FB5002D8A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF103A072F232CFA002D8A36 /* Build configuration list for PBXNativeTarget "MoviesListTests" */ = {
+		AF103A252F232FB5002D8A36 /* Build configuration list for PBXNativeTarget "MoviesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF103A082F232CFA002D8A36 /* Debug */,
-				AF103A092F232CFA002D8A36 /* Release */,
+				AF103A262F232FB5002D8A36 /* Debug */,
+				AF103A272F232FB5002D8A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

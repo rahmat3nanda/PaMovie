@@ -12,4 +12,11 @@ public struct MovieDTO: Decodable {
     public let title: String
     public let overview: String
     public let posterPath: String?
+
+    enum CodingKeys: String, CodingKey {
+        case id
+        case title
+        case overview
+        case posterPath = "poster_path"
+    }
 }

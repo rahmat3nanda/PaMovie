@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol MovieAPI {
-    func fetchPopularMovies() async throws -> PopularMoviesResponse
+    func fetchPopular() async throws -> PopularMoviesResponse
 }

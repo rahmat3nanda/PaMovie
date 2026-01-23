@@ -12,6 +12,8 @@
 		AF103A4E2F233722002D8A36 /* Database.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A4B2F233722002D8A36 /* Database.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AF103A4F2F233722002D8A36 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A4C2F233722002D8A36 /* Networking.framework */; };
 		AF103A502F233722002D8A36 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A4C2F233722002D8A36 /* Networking.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF103A792F233DD2002D8A36 /* UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A782F233DD2002D8A36 /* UI.framework */; };
+		AF103A7A2F233DD2002D8A36 /* UI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF103A782F233DD2002D8A36 /* UI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AF103A7A2F233DD2002D8A36 /* UI.framework in Embed Frameworks */,
 				AF103A502F233722002D8A36 /* Networking.framework in Embed Frameworks */,
 				AF103A4E2F233722002D8A36 /* Database.framework in Embed Frameworks */,
 			);
@@ -44,6 +47,7 @@
 		AF103A1B2F232FB5002D8A36 /* MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF103A4B2F233722002D8A36 /* Database.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Database.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF103A4C2F233722002D8A36 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF103A782F233DD2002D8A36 /* UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -64,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF103A792F233DD2002D8A36 /* UI.framework in Frameworks */,
 				AF103A4F2F233722002D8A36 /* Networking.framework in Frameworks */,
 				AF103A4D2F233722002D8A36 /* Database.framework in Frameworks */,
 			);
@@ -102,6 +107,7 @@
 		AF103A4A2F233722002D8A36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF103A782F233DD2002D8A36 /* UI.framework */,
 				AF103A4B2F233722002D8A36 /* Database.framework */,
 				AF103A4C2F233722002D8A36 /* Networking.framework */,
 			);

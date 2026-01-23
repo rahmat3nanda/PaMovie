@@ -13,4 +13,9 @@ public struct Movie: Identifiable, Equatable {
     public let overview: String
     public let posterPath: String?
     public let isFavorite: Bool
+
+    public var posterURL: URL? {
+        guard let posterPath else { return nil }
+        return URL(string: "https://image.tmdb.org/t/p/w500\(posterPath)")
+    }
 }
